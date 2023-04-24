@@ -1,0 +1,88 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix photography: <http://example.com/thesaurus/photography#> .
+
+photography:PhotographyThesaurus a skos:ConceptScheme;
+  dc:title "Photography Thesaurus"@en;
+  skos:hasTopConcept photography:Photography.
+
+photography:FilmPhotography a skos:Concept ;
+    skos:prefLabel "Film Photography"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:Photojournalism a skos:Concept ;
+    skos:prefLabel "Photojournalism"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:DocumentaryPhotography a skos:Concept ;
+    skos:prefLabel "Documentary Photography"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:FashionPhotography a skos:Concept ;
+    skos:prefLabel "Fashion Photography"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:StreetPhotography a skos:Concept ;
+    skos:prefLabel "Street Photography"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:Portrait a skos:Concept ;
+    skos:prefLabel "Portrait"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:BlackAndWhite a skos:Concept ;
+    skos:prefLabel "Black and White"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:ColoredPhotography a skos:Concept ;
+    skos:prefLabel "Colored Photography"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:ArchitecturalPhotography a skos:Concept ;
+    skos:prefLabel "Architectural Photography"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:HistoricalPhotography a skos:Concept ;
+    skos:prefLabel "Historical Photography"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:Objects a skos:Concept ;
+    skos:prefLabel "Objects"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:TravelPhotography a skos:Concept ;
+    skos:prefLabel "Travel Photography"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:AbstractPhotography a skos:Concept ;
+    skos:prefLabel "Abstract Photography"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:DigitalEditing a skos:Concept ;
+    skos:prefLabel "Digital Editing"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:WarPhotography a skos:Concept ;
+    skos:prefLabel "War Photography"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:Cityscape a skos:Concept ;
+    skos:prefLabel "Cityscape"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:Micro a skos:Concept ;
+    skos:prefLabel "Micro"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:Macro a skos:Concept ;
+    skos:prefLabel "Macro"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:Landscape a skos:Concept ;
+    skos:prefLabel "Landscape"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
+
+photography:ModernPhotography a skos:Concept ;
+    skos:prefLabel "Modern Photography"@en ;
+    skos:inScheme photography:PhotographyThesaurus .
